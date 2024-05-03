@@ -6,12 +6,15 @@
   </head>
   <body>
 
-    <header>
+    <!-- Aqui começa o cabeçalho. -->
+   <header>  
 
+    <!-- Primeira div dento do cabeçalho para a imagem. -->
       <div>
         <img src="imagem/pinguim.png" alt="IMAGEM LOGO">
       </div>
 
+      <!-- Segunda div para a nav, lista não ordenada, e para as âncoras e seus textos. -->
       <div>
 
         <nav>
@@ -40,16 +43,21 @@
 
       </div>
     </header>
+    <!-- Aqui finaliza o cabeçalho. -->
 
+    <!-- Aqui uma div para guardar outras div com seus conteúdos (div-pai). -->
     <div>
 
+        <!-- Aqui uma diiv para guardar um vídeo. -->
       <div>
-        <video autoplay muted loop id="myVideo" >
-          <source src="video/199001-909564581_large.mp4" type="video/mp4">
+        <video autoplay muted loop id="myVideo"  >
+          <source src="video/201766-916357972_tiny.mp4" type="video/mp4" >
 
         </video>
       </div>
+      <!-- Aqui fecha a div do vídeo e seu botão. -->
 
+      <!-- Aqui abre uma div para guardar o conteúdo do video, e o botão (suas funções logo abaixo). -->
       <div class="content">
         <h1>Heading</h1>
         <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat
@@ -57,12 +65,16 @@
           maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore
           latine molestiae, ad mutat oblique delicatissimi pro.</p>
 
+          <!-- Botão está recebendo e executando suas funções do JavaScrit -->
         <button id="myBtn" onclick="myFunction()">Pause</button>
 
       </div>
+      <!-- Aqui fecha a div -->
 
     </div>
+    <!-- Aqui fecha a div-pai -->
 
+    <!-- Aqui abre uma seção para guardar suas divs, com seus parágrafos inseridos (Cada div existe uma tag para um parágrafo). -->
     <section class="sessao1">
 
       <div>
@@ -86,7 +98,15 @@
           Libero, voluptatibus sed?</p>
       </div>
     </section>
+    <!-- Aqui fecha a seção -->
 
+<div id="div-pai">
+    <div> 1 </div>
+    <div> 2 </div>
+    <div> 3 </div>
+</div>
+
+    <!-- Aqui abrimos o JavaScrit -->
 <script src="pixabay.js"></script>
   </body>
 </html>

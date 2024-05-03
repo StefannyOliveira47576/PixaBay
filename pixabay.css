@@ -77,3 +77,24 @@
   margin: 0.5rem;
   font-weight: 600;
   }
+
+  #div-pai{
+   width: 100vw;  /* Largura toatl disponível*/
+   height: 100vh; /*Altura total disponível*/
+   display: flex; /*Para os itens ficarem lado á lado*/
+   gap: 40px; /*Espaço entre os itens*/
+   justify-content: center; /*Justificando os itens na horizontal*/
+   align-items: center; /* Alinhamento vertical*/
+   flex-direction: row; /**/
+   flex-wrap: wrap; /* Fazer a quebra dos itens */
+  }
+
+  #div-pai div{
+   height: 9rem; /* Altura */
+   width: 9rem; /* Largura */
+   border: 0.1rem solid black; /* Estilização da borda */
+   background-color: royalblue; /* Cor do fundo */
+   font-size: 4rem; /* Tamanho da fonte */
+   box-shadow: 10px 10px 10px black; /* Sombra da caixa */
+   border-radius: 1rem; /* O Arredondamento da borda*/
+  }
