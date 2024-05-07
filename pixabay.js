@@ -18,6 +18,6 @@ if (video.paused) { //se o vídeo estiver pausado execute: Play.
 window.revelar = ScrollReveal({reset:true});
 
 revelar.reveal('.efeito-img-topo', {
-    duration: 3000,
-    distance: '150px'
+    duration: 2000,
+    distance: '90px'
 });

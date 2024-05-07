@@ -23,9 +23,8 @@
       
   }
   
-  header ul {
+  header ul{
       display: flex;
-     
   }
   
   header ul li {
@@ -98,3 +97,84 @@
    box-shadow: 10px 10px 10px black; /* Sombra da caixa */
    border-radius: 1rem; /* O Arredondamento da borda*/
   }
+
+  .secao-02{
+    background-color: lightslategray;
+    padding: 6rem;
+  }
+
+  .div-pai02{
+    display: flex; 
+    gap: 4rem;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .form{
+    background-color: black;
+    align-items: center;
+    color: white;
+    padding: 5rem;
+    border-radius: 1rem;
+  }
+
+  .form h2{
+    margin-top: -2rem;
+  }
+
+  .form label{
+     font-size: 1.5rem;
+  }
+
+  .form input{
+    padding: 1rem;
+  }
+
+  .botao{
+    padding: -0.1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .botao:hover{
+    transition: 1s;
+    background-color: lightslategray;
+  }
+
+  .rodapé{
+    display: flex; 
+    justify-content: space-evenly ; 
+    align-items: center ; 
+    background-color: black; 
+    padding: 100px ; 
+    flex-wrap: wrap; 
+    color: white;
+ }
+
+ .lista{
+    display: flex; 
+ }
+
+ .lista li{
+    margin-right: 20px; 
+    list-style: none; 
+ }
+
+
+
+.lista li a{
+    text-decoration: none; 
+    color: white; 
+    font-size: 25px; 
+    padding: 20px;
+}
+
+.lista li a:hover {
+    color: #8ba6ac; 
+    transition: 0.8s;
+}
+
+  
